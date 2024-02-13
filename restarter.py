@@ -21,7 +21,7 @@ def watch_thread():
 
 def watch_file():
     while True:
-        subprocess.call(" python3 main.py", shell=True)
+        subprocess.call("python3 main.py", shell=True)
         print("process disturbed")
         time.sleep(5)
         
