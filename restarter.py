@@ -1,11 +1,11 @@
 import time
 import subprocess
 import os
+from threading import Thread
 
 
 os.chdir(os.path.dirname(os.path.realpath(__file__)))
 
-from threading import Thread
 def watch_thread():
     try:
         global file_watcher
